@@ -1,0 +1,14 @@
+GET {{api}}/tasks
+Accept: application/json
+
+
+###
+GET {{api}}/tasks/0
+Accept: application/json
+
+
+###
+POST {{api}}/tasks
+Content-Type: text/plain
+
+Zrobic dwa wazne zadania

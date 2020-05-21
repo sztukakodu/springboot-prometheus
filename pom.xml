@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pl.sztukakodu</groupId>
-	<artifactId>todoapp</artifactId>
+	<artifactId>springboot-prometheus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>todoapp</name>
+	<name>springboot-prometheus</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,6 +22,21 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!-- Micormeter core dependecy  -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-core</artifactId>
+		</dependency>
+		<!-- Micrometer Prometheus registry  -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
 		</dependency>
 
 		<dependency>
